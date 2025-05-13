@@ -4,6 +4,7 @@ import "fmt"
 import "os"
 
 func main() {
-     fmt.Println("Hello, Go ")
-     name:="maojun"
+
+	fmt.Println("Hello, Go")
+
 }

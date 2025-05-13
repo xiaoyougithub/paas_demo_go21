@@ -1,2 +1,5 @@
 components: ["filetree", "shell", "console"]
+# Command to run when "Run" button clicked
 run_command: "go run main.go"
+# Language of the project
+language: "go"

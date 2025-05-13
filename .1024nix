@@ -1,5 +1,8 @@
 { pkgs ? import <nixpkgs> {} }:
 pkgs.mkShell {
+    # Set language to Go
+    language = "go";
+    
     shellHook = ''
         alias ll="ls -l"
         export PS1="\[\e[0m\]\w\[\e[0m\]#\[\e[0m\] "
