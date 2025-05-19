@@ -1,0 +1,25 @@
+# Go specific
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+
+# Output directories
+/bin/
+/pkg/
+/vendor/
+/out/
+/dist/
+
+# Clacky related files
+.1024*
+!.1024
+.breakpoints
+
+# OS specific
+.DS_Store
+Thumbs.db
