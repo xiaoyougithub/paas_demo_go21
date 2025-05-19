@@ -1,0 +1,23 @@
+# Clacky specific files
+.1024*
+!.1024
+.breakpoints
+
+# Go specific files
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.out
+*.test
+*.prof
+
+# Go dependency directories
+vendor/
+go.sum
+
+# Go build and debugging files
+/debug
+/build
