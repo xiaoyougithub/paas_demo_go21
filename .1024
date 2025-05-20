@@ -1,2 +1,7 @@
+# Project name: paas_demo_go21
+# Description: A simple Go project demonstrating basic functionality
+# Language: Go
+# Components to display in the UI
 components: ["filetree", "shell", "console"]
+# Command to run when "Run" button clicked
 run_command: "go run main.go"
