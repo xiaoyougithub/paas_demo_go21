@@ -1,0 +1,35 @@
+# Clacky specific ignores
+.1024*
+!.1024
+.1024nix
+.breakpoints
+
+# Go specific ignores
+*.o
+*.a
+*.so
+*.exe
+*.exe~
+*.dll
+*.dylib
+*.test
+*.out
+*.prof
+*.log
+/bin/
+/vendor/
+/Godeps/
+.env
+coverage.txt
+coverage.html
+
+# Go workspace file
+go.work
+
+# Go test cache
+*.test
+*.out
+.testCoverage.txt
+
+# Go binary
+/main
