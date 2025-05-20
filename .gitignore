@@ -1,0 +1,33 @@
+# Clacky configuration
+.1024*
+!.1024
+.breakpoints
+
+# Go specific
+/*
+!/*/
+!*.go
+!go.mod
+!go.sum
+!README.md
+!LICENSE
+
+# Compiled Object files, Static and Dynamic libs
+*.o
+*.a
+*.so
+*.exe
+*.test
+*.prof
+*.out
+
+# Output directories
+/bin/
+/pkg/
+/vendor/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
