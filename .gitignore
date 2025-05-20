@@ -1,0 +1,48 @@
+# Clacky-related configuration
+.1024*
+!.1024
+.breakpoints
+
+# Go specific
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go build files
+*.o
+*.a
+bin/
+pkg/
+
+# Output of the go coverage tool
+*.out
+*.prof
+*.test
+coverage.txt
+coverage.html
+
+# Project-specific binary
+main
+
+# Dependency directories
+vendor/
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.vs/
