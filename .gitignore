@@ -1,0 +1,36 @@
+# Clacky-related configuration
+.1024*
+!.1024
+.breakpoints
+
+# Go compiled binary files and executables
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+*.out
+
+# Object files and build output directories
+*.o
+*.a
+*.test
+
+# Go workspace files and build cache
+.go/
+go.work
+.cache/
+
+# IDE configuration files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# Log files and testing output
+*.log
+/coverage
+/tmp
