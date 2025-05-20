@@ -1,0 +1,46 @@
+# Clacky-related configuration
+.1024*
+!.1024
+.breakpoints
+
+# Go specific
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+/vendor/
+/bin/
+/pkg/
+/tmp/
+
+# Go workspace files
+go.work
+
+# Log files
+*.log
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Debug files
+debug
+debug.test
+
+# Build output
+/dist/
