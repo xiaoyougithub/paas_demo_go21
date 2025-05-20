@@ -1,0 +1,43 @@
+# Clacky-related configuration
+.1024*
+!.1024
+.breakpoints
+
+# Go-specific ignores
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Dependency directories
+vendor/
+Godeps/
+
+# Go workspace file
+go.work
+
+# Compiled Object files, Static and Dynamic libs
+*.o
+*.a
+
+# Debug files
+debug
+
+# Build directory
+bin/
+dist/
+
+# IDE-related directories
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
