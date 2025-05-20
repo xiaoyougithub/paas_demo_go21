@@ -1,2 +1,2 @@
-components: ["filetree", "shell", "console"]
-run_command: "go run main.go"
+# Command to run when "Run" button clicked
+run_command: 'go run main.go'
