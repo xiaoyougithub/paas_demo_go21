@@ -1,0 +1,30 @@
+# Clacky-related configuration
+.1024*
+!.1024
+.breakpoints
+
+# Go-specific
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+/vendor/
+/bin/
+/pkg/
+go.work
+
+# Common editors/IDEs
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.sublime-workspace
+*.swp
+*.swo
+*~
+.DS_Store
