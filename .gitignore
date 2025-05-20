@@ -1,0 +1,38 @@
+# Clacky-related configuration
+.1024*
+!.1024
+.breakpoints
+
+# Go specific
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+
+# Binary files and build outputs
+/bin/
+/build/
+/dist/
+
+# Go workspace and dependency files
+/vendor/
+/go.sum
+/go.mod.backup
+
+# IDE specific files and directories
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+*~
+
+# Environment configuration files
+*.env
+.env*
+!.env.example
+.envrc
