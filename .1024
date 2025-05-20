@@ -1,2 +1,4 @@
-components: ["filetree", "shell", "console"]
+# Project name: paas_demo_go21
+# Primary language: Go
+# Command to run when "Run" button clicked
 run_command: "go run main.go"

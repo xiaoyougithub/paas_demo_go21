@@ -1,0 +1,49 @@
+# Clacky-related configuration
+.1024*
+!.1024
+.breakpoints
+
+# Compiled Go binary files
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Object files
+*.o
+*.a
+
+# Go specific
+/bin/
+/pkg/
+*.test
+*.out
+/go.work
+coverage.txt
+coverage.html
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# Dependencies
+/vendor/
+/go.sum
+
+# Debug files
+__debug_bin
+debug
+
+# System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
