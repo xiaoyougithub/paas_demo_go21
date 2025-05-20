@@ -1,2 +1,2 @@
-components: ["filetree", "shell", "console"]
+components: []
 run_command: "go run main.go"
