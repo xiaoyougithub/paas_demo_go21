@@ -1,0 +1,23 @@
+# Clacky-specific configuration
+.1024*
+!.1024
+.breakpoints
+
+# Go binary files
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary files
+*_test
+*.test
+
+# Go coverage files
+*.out
+*.coverprofile
+
+# Go module cache directories
+vendor/
+Godeps/
