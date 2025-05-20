@@ -1,2 +1,4 @@
+# Components to enable in the workspace UI
 components: ["filetree", "shell", "console"]
+# Command to run when "Run" button clicked
 run_command: "go run main.go"
