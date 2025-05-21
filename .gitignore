@@ -1,0 +1,70 @@
+# Clacky IDE configuration
+.1024*
+!.1024
+.breakpoints
+
+# Go specific
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+*.bin
+*.o
+_obj
+_test
+
+# Go build and cache
+bin/
+pkg/
+/vendor/
+/Godeps/
+.glide/
+.go/
+*.prof
+/go.work
+
+# Go module
+go.sum
+go.mod
+
+# Directories
+/dist/
+/tmp/
+/build/
+.cache/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.vs/
+*.sublime-workspace
+*.sublime-project
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Environment variables
+.env
+.env.*
+*.env
+
+# Logs
+*.log
+logs/
+log/
+
+# Temporary files
+*.tmp
+*.temp
+*~
