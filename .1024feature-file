@@ -9,3 +9,5 @@ fileChangeLogs:
   - README.md
   - main.py
   - main.go
+  - go.mod
+  - .gitignore
