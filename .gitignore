@@ -1,0 +1,42 @@
+# Clacky-specific configuration
+.1024*
+!.1024
+.breakpoints
+
+# Compiled binary files and executables
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.out
+*.test
+/bin/
+/build/
+
+# Go specific files
+/vendor/
+go.sum
+*.mod
+
+# IDE specific files
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+*.sublime-workspace
+
+# Log files
+*.log
+/logs/
+/log/
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
