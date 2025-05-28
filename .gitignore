@@ -1,0 +1,31 @@
+# Clacky-related configuration
+.1024*
+!.1024
+.breakpoints
+
+# Go-specific files
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+*.prof
+*.o
+*.a
+/bin/
+/pkg/
+/vendor/
+go.work
+
+# Build output
+/build/
+/dist/
+/tmp/
+
+# IDE-specific files (optional)
+.idea/
+.vscode/
+*.swp
+*.swo
