@@ -1,0 +1,61 @@
+# Clacky-related configuration
+.1024*
+!.1024
+.breakpoints
+
+# Go-specific files
+# Compiled binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+/main
+/cmd/*/main
+
+# Build and dist directories
+/build/
+/dist/
+/bin/
+/pkg/
+
+# Dependency directories
+/vendor/
+
+# Go modules cache
+go.sum
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Go workspace file
+go.work
+
+# IDE configuration files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS-specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Log files
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+/tmp/
+.cache/
