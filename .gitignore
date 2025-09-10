@@ -1,0 +1,22 @@
+# Clacky-specific configuration
+.1024*
+!.1024
+.breakpoints
+
+# Go-specific entries
+/bin
+/pkg
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Editor-specific entries
+.idea/
+.vscode/
+
+# Go workspace file
+go.work
